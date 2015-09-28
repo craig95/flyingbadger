@@ -1,10 +1,9 @@
 /**
- * @file   example_action.h
- * @Author Me (me@example.com)
- * @date   September, 2008
- * @brief  Brief description of file.
+ * @file   unit.h
+ * @Author Craig van Heerden U15029779
+ * @date   September, 2015
+ * @brief  Pure virtual class that defines a unit
  *
- * Detailed description of file.
  */
 
 #ifndef UNIT_H
@@ -17,8 +16,9 @@ public:
 	virtual ~Unit();
 	int getHealth();
 	int getDamage();
-	virtual void attack()=0;
-
+	virtual void attack(Unit&)=0;
+	virtual void takeDamage(int pDamage)=0;
+	virtual Unit* clone(Unit&)=0;
 
 protected:
 	void setHealth(int pHealth);

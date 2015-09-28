@@ -6,9 +6,10 @@
 class Mage: public Player
 {
 public:
-	
-private:
-	
+	Mage();
+	Unit* clone(Unit&);
+	void attack(Unit&);
+	void takeDamage(int pDamage);	
 }
 
 #endif
