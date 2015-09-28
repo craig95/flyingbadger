@@ -6,9 +6,10 @@
 class Thief: public Player
 {
 public:
-	
-private:
-	
+	Thief();
+	Unit* clone(Unit&);
+	void attack(Unit&);
+	void takeDamage(int);	
 }
 
 #endif

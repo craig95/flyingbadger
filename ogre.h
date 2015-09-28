@@ -6,8 +6,10 @@
 class Ogre: public Monster
 {
 public:
-	
-private:
+	Ogre();
+	Unit* clone(Unit&);
+	void attack(Unit&);
+	void takeDamage(int);	
 	
 }
 

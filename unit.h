@@ -17,7 +17,7 @@ public:
 	int getHealth();
 	int getDamage();
 	virtual void attack(Unit&)=0;
-	virtual void takeDamage(int pDamage)=0;
+	virtual void takeDamage(int)=0;
 	virtual Unit* clone(Unit&)=0;
 
 protected:

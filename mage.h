@@ -9,7 +9,7 @@ public:
 	Mage();
 	Unit* clone(Unit&);
 	void attack(Unit&);
-	void takeDamage(int pDamage);	
+	void takeDamage(int);	
 }
 
 #endif

@@ -6,8 +6,10 @@
 class Soldier: public Player
 {
 public:
-	
-private:
+	Soldier();
+	Unit* clone(Unit&);
+	void attack(Unit&);
+	void takeDamage(int);	
 	
 }
 

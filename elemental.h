@@ -6,9 +6,10 @@
 class Elemental: public Monster
 {
 public:
-	
-private:
-	
+	Elemental();
+	Unit* clone(Unit&);
+	void attack(Unit&);
+	void takeDamage(int);	
 }
 
 #endif

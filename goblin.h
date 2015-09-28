@@ -6,9 +6,10 @@
 class Goblin: public Monster
 {
 public:
-	Unit* Clone(Unit& aUnit);
-	void attack(Unit& aUnit);
-	void takeDamage(int pDamage);
+	Goblin();
+	Unit* clone(Unit&);
+	void attack(Unit&);
+	void takeDamage(int);	
 	
 private:
 	
