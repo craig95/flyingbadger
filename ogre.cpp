@@ -2,8 +2,8 @@
 
 Ogre::Ogre()
 {
-	Unit::setDamage(4);
-	Unit::setHealth(85);
+	Unit::setDamage(5);
+	Unit::setHealth(120);
 }
 
 Unit* Ogre::clone(Unit& aUnit)
