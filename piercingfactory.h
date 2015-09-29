@@ -6,9 +6,8 @@
 class PiercingFactory: public UnitFactory
 {
 public:
-	
-private:
-	
+	void createPlayer();
+	void createMob();
 }
 
 #endif

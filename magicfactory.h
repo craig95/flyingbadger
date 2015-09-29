@@ -6,8 +6,8 @@
 class MagicFactory: public UnitFactory
 {
 public:
-	
-private:
+	Unit* createPlayer();
+	Unit* createMob();
 	
 }
 
